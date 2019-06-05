@@ -1,13 +1,46 @@
+/* REGOLE GENERALI */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 }
 
 .center_cont {
   width: 75vw;
   margin: 0 auto;
+  position: relative;
 }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1, h2, h3, h4, h5 {
+  line-height: 300%;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.centravert {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+
+/* BLOCCO HEADER */
 
 #nav1 {
   height: 30px;
@@ -24,7 +57,103 @@
   background-color: #fff;
 }
 
+
+/* BLOCCO SECTION 1 */
+
 .sec1 img {
   width: 100%;
   background-size: contain;
+}
+
+
+/* BLOCCO SECTION 2 */
+
+.sec2 {
+  background-color: #F5F8FA;
+  padding-top: 20px;
+}
+
+.sec2 img {
+  width: 20%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.powerful {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+
+
+
+/* BLOCCO SECTION 3 */
+
+.sec3 {
+  background-color: #F5F8FA;
+}
+
+.freehubimg {
+  width: 35%;
+  height: 300px;
+  float: left;
+  background-color: #fff;
+  position: relative;
+}
+
+.freehubimg img {
+  width: 80%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.freehubimg button {
+  background-color: #FF7A59;
+  font-weight: bold;
+  padding: 15px 25px;
+  color: #fff;
+  display: block;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.freehubtext {
+  width: 65%;
+  height: 300px;
+  float: left;
+  background-color: #fff;
+  position: relative;
+}
+
+.freehubtext img {
+  float: left;
+}
+
+.freehubtext li {
+  float: left;
+  list-style-type: none;
+}
+
+.freehubtext p {
+  float: left;
+}
+
+.freehubtext ul p {
+  line-height: 30px;
+}
+
+
+
+
+
+
+
+
+.sec4, .sec5, .sec6 {
+  height: 100px;
+  background-color: red;
+  border: 1px solid;
 }
