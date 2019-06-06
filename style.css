@@ -175,6 +175,18 @@ button:hover {
   background-color: #fff;
 }
 
+.hub0 button {
+  background-color: #FF7A59;
+  font-weight: bold;
+  padding: 10px 15px;
+  margin-top: 10px;
+  color: #fff;
+  display: block;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
 .hub0 img {
   height: 100px;
   position: relative;
