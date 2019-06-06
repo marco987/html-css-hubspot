@@ -45,7 +45,25 @@ button:hover {
 #nav1 {
   height: 30px;
   background-color: #33475B;
+  color: #fff;
 }
+
+#nav1 img {
+  height: 30px;
+}
+
+.nav1menusx img, .nav1menusx p {
+  float: left;
+  line-height: 30px;
+  padding-right: 10px;
+}
+
+.nav1menudx img, .nav1menudx p {
+  float: left;
+  line-height: 30px;
+  padding-left: 10px;
+}
+
 
 #nav2 {
   height: 40px;
@@ -128,17 +146,9 @@ button:hover {
   position: relative;
 }
 
-.freehubtext img {
-  float: left;
-}
-
-.freehubtext li {
+.freehubtext img, .freehubtext li, .freehubtext p {
   float: left;
   list-style-type: none;
-}
-
-.freehubtext p {
-  float: left;
 }
 
 .freehubtext ul p {
